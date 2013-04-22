@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsMatProf" value="name:DescMat;datatype:string" />
+	<infoitem key="UD_rstMaterias" value="name:idMaterias;datatype:int,name:CodMat;datatype:string,name:DescMat;datatype:string" />
+	<infoitem key="UD_rsUser" value="name:UserID;datatype:string" />
+	<infoitem key="UD_rstProxAulas" value="name:idtbCadAula;datatype:int,name:HorarioIniAula;datatype:time,name:HorarioFimAula;datatype:time,name:TemaAula;datatype:string,name:Data;datatype:string" />
+</info>

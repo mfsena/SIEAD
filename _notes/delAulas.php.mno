@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rstAulas" value="name:idtbCadAula;datatype:int,name:DataAula;datatype:date,name:HorarioIniAula;datatype:time,name:HorarioFimAula;datatype:time,name:TemaAula;datatype:string,name:userID;datatype:string" />
+</info>

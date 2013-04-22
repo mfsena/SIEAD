@@ -1,0 +1,11 @@
+CREATE VIEW `siead`.`viewproxaulas` AS select *, date_format(tbcadaula.DataAula, '%d/%m/%Y') AS Data from siead.tbcadaula where date_format(tbcadaula.DataAula, '%d/%m/%Y')>=date_format(CurDate(), '%d/%m/%Y');
+
+
+
+CREATE  OR REPLACE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `siead`.`viewprofmats` AS select `siead`.`tbmatprof`.`userID` AS `fk_userProf`,`siead`.`tbmatprof`.`fk_idMaterias` AS `fk_idMaterias`,`siead`.`tbmaterias`.`idMaterias` AS `idMaterias`,`siead`.`tbmaterias`.`CodMat` AS `CodMat`,`siead`.`tbmaterias`.`DescMat` AS `DescMat`,`siead`.`tbprofessor`.`userProf` AS `userProf`,`siead`.`tbprofessor`.`NomeProf` AS `NomeProf`,`siead`.`tbprofessor`.`tbusers_UserID` AS `tbusers_UserID` from ((`siead`.`tbmatprof` join `siead`.`tbmaterias` on((`siead`.`tbmatprof`.`fk_idMaterias` = `siead`.`tbmaterias`.`idMaterias`))) join `siead`.`tbprofessor` on((`siead`.`tbmatprof`.`fk_userProf` = `siead`.`tbprofessor`.`userProf`)))
+
+
+Data
+HorarioIniVideo
+HorarioFimVideo
+NomeVideo

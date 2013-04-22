@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsMatProf" value="name:DescMat;datatype:string" />
+	<infoitem key="UD_rstMaterias" value="name:idMaterias;datatype:int,name:codMat;datatype:string,name:DescMat;datatype:string,name:tbmateriascol;datatype:string" />
+</info>

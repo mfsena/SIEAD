@@ -1,0 +1,556 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #5f5f5f;
+  background-image: url(images/back.gif);
+}
+#container {
+  margin: 20px auto;
+  padding: 10px;
+  width: 900px;
+  height: 653px;
+  background-color: #ffffff;
+}
+#headerpage {
+  height: 116px;
+  width: 900px;
+  background-color: rgb(40,88,133);
+}
+#logo {
+  position: relative;
+  font-family: goudy old style,"verdana",Times,serif;
+  font-size: 20pt;
+  font-weight: bold;
+  color: #ffffff;
+  top: 10px;
+  margin-left: 10px;
+  width: 300px;
+  height: 22px;
+}
+#headermenu {
+  position: absolute;
+  font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  font-size: 10pt;
+  color: #ffffff;
+  top: 40px;
+  margin-left: 695px;
+  width: 206px;
+  height: 15px;
+}
+#headermenu a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#headermenu a:hover {
+  color: #f5f5f5;
+  text-decoration: underline;
+}
+#menubar {
+ 
+  font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  font-size: 10pt;
+  background-color: rgb(40,88,133);
+  margin-top: 1px;
+  width: 900px;
+  height: 23px;
+}
+#menubar ul {
+  margin: 0px;
+  padding: 1px;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+  text-align: center;
+}
+#menubar li {
+  display: inline;
+}
+#menubar a {
+  padding: 5px 15px;
+  text-decoration: none;
+  color: #ffffff;
+}
+#menubar a:hover {
+  background-color: #ffffff;
+  color: rgb(40,88,133);
+}
+#rightpic {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  background: #e3e3e3 url(/SIEAD/images/Logopequeno.png) no-repeat scroll center top;
+  float: right;
+  width: 179px;
+  height: 200px;
+}
+#rightsidebar {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  float: right;
+  background-color: #ededed;
+  margin-top: 128px;
+  width: 179px;
+  height: 326px;
+}
+#rightsidebar h2 {
+  padding: 3px 6px;
+  font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  font-size: 10pt;
+  color: #ffffff;
+  background-color: rgb(40,88,133);
+}
+#rightsidebar h3 {
+  padding: 3px 6px;
+  font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  font-size: 10pt;
+  color: #ffffff;
+  background-color: rgb(40,88,133);
+}
+#rightsidebartext {
+  padding: 12px;
+  font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  font-size: 10pt;
+  color: rgb(40,88,133);
+  line-height: 14pt;
+}
+#rightsidebartext ul {
+  margin: 0px;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+}
+#rightsidebartext a {
+  text-decoration: none;
+  color: #66584b;
+}
+#rightsidebartext a:hover {
+  color: #66584b;
+  text-decoration: underline;
+}
+#rightsidebartext1 {
+  padding: 12px;
+  font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  font-size: 10pt;
+  color: rgb(40,88,133);
+  line-height: 14pt;
+}
+#rightsidebartext1 ul {
+  margin: 0px;
+  list-style-type: none;
+  list-style-image: none;
+  list-style-position: outside;
+}
+#rightsidebartext1 a {
+  text-decoration: none;
+  color: #66584b;
+}
+#rightsidebartext1 a:hover {
+  color: #66584b;
+  text-decoration: underline;
+}
+#leftpic {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  background: #e3e3e3 url(/SIEAD/images/study.jpg) no-repeat scroll left top;
+  float: left;
+  width: 179px;
+  height: 200px;
+}
+#leftsidebar {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  float: left;
+  background-color: #f2f2f2;
+  margin-top: 128px;
+  width: 179px;
+  height: 280px;
+}
+#leftsidebar h2 {
+  padding: 3px 6px;
+  font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  font-size: 10pt;
+  color: #ffffff;
+  background-color: rgb(40,88,133);
+}
+#leftsidebar h3 {
+  padding: 3px 6px;
+  font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  font-size: 10pt;
+  color: #ffffff;
+  background-color: rgb(40,88,133);
+}
+#leftsidebartext {
+  padding: 12px;
+  font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  font-size: 10pt;
+  color: rgb(40,88,133);
+  line-height: 14pt;
+}
+#leftsidebartext a {
+  text-decoration: none;
+  color: #66584b;
+}
+#leftsidebartext a:hover {
+  color: #66584b;
+  text-decoration: underline;
+}
+#leftsidebartext1 {
+  padding: 12px;
+  font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  font-size: 10pt;
+  color: rgb(40,88,133);
+  line-height: 14pt;
+}
+#leftsidebartext1 a {
+  text-decoration: none;
+  color: #66584b;
+}
+#leftsidebartext1 a:hover {
+  color: #66584b;
+  text-decoration: underline;
+}
+#middlepic {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position:  0% 0%;
+  float: left;
+  width: 540px;
+  height: 128px;
+}
+#content {
+  float: left;
+  width: 495px;
+}
+#contenttxt {
+  padding: 12px;
+  font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  font-size: 10pt;
+  color: #4e4e4e;
+  width: 515px;
+  text-align: justify;
+  line-height: 12pt;
+}
+#content h2 {
+  border-bottom: 1px solid rgb(40,88,133);
+  padding-bottom: 0px;
+  font-size: 12px;
+  color: rgb(40,88,133);
+}
+#content h3 {
+  padding: 3px 6px;
+  background: #370f00 none repeat scroll 0% 50%;
+  color: rgb(40,88,133);
+  font-size: 86%;
+}
+.study {
+  padding: 12px 15px 15px;
+  background: #d6dee5 none repeat scroll 0% 50%;
+  font-size: 93%;
+  font-family: arial,sans-serif;
+}
+.bulletin {
+  padding: 12px 15px 15px;
+  background: #e3eaf0 none repeat scroll 0% 50%;
+  font-size: 10pt;
+}
+#footer {
+  border-top: 1px solid #ffffff;
+  width: 900px;
+  height: 60px;
+  background-color: rgb(40,88,133);
+  float: left;
+}
+#footer_text {
+  text-align: center;
+  font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  font-size: 10pt;
+  margin-top: 15px;
+  color: #c9c9c9;
+  line-height: 12pt;
+}
+#footer_text a {
+  text-decoration: none;
+  color: #c9c9c9;
+}
+#footer_text a:hover {
+  color: #c9c9c9;
+  text-decoration: underline;
+}
+#topCenterForm {
+	padding: 0px 0 1px 0px;
+  	font-family: verdana,"Microsoft Sans Serif",Times,serif;
+  	font-size: 10pt;
+	text-align: center;
+	text-decoration:none;
+  	color: #ffffff;
+  	line-height: 12pt;
+  	background-color: rgb(40,88,133);
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+  	float: left;
+  	margin-top: 0px;
+  	width: 530px;
+  	height: 25px;
+}
+#form_settings { 
+  margin: 15px 0 0 0;
+}
+
+#form_settings p { 
+  padding: 0 0 4px 0;
+}
+
+#form_settings span { 
+  float: left; 
+  width: 200px; 
+  text-align: left;
+}
+  
+#form_settings input, .form_settings textarea { 
+  padding: 5px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #E5E5DB; 
+  background: #FFF; 
+  color: #47433F;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;  
+}
+  
+#form_settings .submit { 
+  font: 100% arial; 
+  border: 0; 
+  width: 99px; 
+  margin: 0 0 0 212px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #3B3B3B; 
+  color: #FFF;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;  
+}
+
+#form_settings textarea, .form_settings select { 
+  font: 100% arial; 
+  width: 299px;
+}
+
+#form_settings select { 
+  width: 310px;
+}
+
+#form_settings .checkbox { 
+  margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;
+}
+
+#form .row .label {
+	color:rgb(40,88,133);
+	font-size:10;
+	font-weight:bold;
+}
+
+#form .row .input {
+	float:left;
+	margin-right:1px;
+	width:auto;
+}
+
+#form #submit {
+	margin-top:5px;
+	margin-left:45;
+	color:#000;
+	font-size:10;
+	text-shadow:1px 1px 1px #999;
+	padding:8px;
+	
+}
+
+#formWrap {
+	border-bottom: 1px solid rgb(40,88,133);
+  	font-size: 12px;
+  	color: rgb(40,88,133);
+	-moz-border-radius:20px;
+	-moz-box-shadow:2px 2px 5px #999;
+	-webkit-:20px;
+	-webkit-:2px 2px 5px #999;
+	padding: 0px 0px;
+}
+
+#formWrap #form {
+	width:auto;
+}
+
+#form .row {
+	line-height:30px;
+	padding:1px 0px;
+	width:100%;
+}
+
+#form .context {
+	color:#999;
+	font-size:10px;
+	font-style:italic;
+	line-height:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:200px;
+	float:inherit;
+}
+#form .context2 {
+	color:#999;
+	font-size:10px;
+	font-style:italic;
+	line-height:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	width:60px;
+	float:inherit;
+}
+#box {
+	width:300px; height:200px;margin:50px auto;background:rgb(40,88,133);
+	border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px; 
+}
+#box #frmLogin span {
+	font:Verdana, Geneva, sans-serif;font-size:16px;color:#fff;display:block;margin:4px 11px 4px;
+}
+#box input{
+padding:5px; border:1px solid #CCC;margin:0px 10px; width:260px;
+}
+#box .btn{
+	border:1px solid #CCC;background:#fff; color:#333; padding:10px;font-size:16px;margin:6px 10px 0;width:auto;cursor:pointer;
+}
+#logtitle{
+font:Verdana, Geneva, sans-serif;font-size:16px;color:rgb(40,88,133)
+}
+#contenttxt .tbAulas {
+border-collapse: collapse;
+  border: none;
+  font: normal 11px helvetica, verdana, arial, sans-serif;
+ 
+}
+
+#Video {
+  padding: 2px 3.5% 2px; 
+  float: center;
+  font-family: verdana,Microsoft Sans Serif,Times,serif;
+  font-size: 10pt;
+  color: #ffffff;
+  width: 515px;
+  text-align: justify;
+  line-height: 12pt;
+}
+
+
+/* roScripts
+Table Design by Mihalcea Romeo
+www.roscripts.com
+----------------------------------------------- */
+
+table {
+		border-collapse:collapse;
+		background:#EFF4FB url(http:/localhost/SIEAD/images/teaser.gif) repeat-x;
+		border-left:1px solid #686868;
+		border-right:1px solid #686868;
+		font:10pt verdana,"Microsoft Sans Serif",Times,serif;
+		color: #333;
+		width:inherit;
+}
+
+th {
+		padding:5px;
+		background: #E9EEF2 url(../images/theme/backdrop.png) repeat-x; 
+		color: white;
+}
+td{
+		padding:5px;
+		background: #EFF4FB url(http:/localhost/SIEAD/images/teaser.gif) repeat-x;
+}
+
+caption {
+		padding: 0 0 .5em 0;
+		text-align: left;
+		font-size: 1.9em;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #333;
+		background: transparent;
+}
+
+/* =links
+----------------------------------------------- */
+
+table a {
+		color:#950000;
+		text-decoration:none;
+}
+
+table a:link {}
+
+table a:visited {
+		font-weight:normal;
+		color:#666;
+		text-decoration: line-through;
+}
+
+table a:hover {
+		border-bottom: 1px dashed #bbb;
+}
+
+/* =head =foot
+----------------------------------------------- */
+
+thead th, tfoot th, tfoot td {
+		background:#E9EEF2 url(../images/theme/backdrop.png) repeat-x;
+		color:#fff
+}
+tfoot th, tfoot td {
+		background:#E9EEF2 url(../images/theme/backdrop.png) repeat-x;
+		color:#fff
+}
+
+tfoot td {
+		text-align:right
+}
+
+/* =body
+----------------------------------------------- */
+
+tbody th, tbody td {
+		border-bottom: dotted 1px #333;
+}
+
+tbody th {
+		white-space: nowrap;
+}
+
+tbody th a {
+		color:#333;
+}
+
+.odd {}
+
+tbody tr:hover {
+		background:#fafafa;
+}
+#leftsidebar .fixo {
+	border-collapse:collapse;
+		background:#EFF4FB url(http:/localhost/SIEAD/images/teaser.gif) repeat-x;
+		border-left:1px solid #686868;
+		border-right:1px solid #686868;
+		font:10pt verdana,"Microsoft Sans Serif",Times,serif;
+		color: #333;
+		width:179px;
+}
+hr {
+	width:100%;;
+}

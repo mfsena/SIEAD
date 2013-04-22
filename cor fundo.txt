@@ -1,0 +1,3 @@
+azul: rgb(40,88,133)
+vermelho: rgb(237,28,36)
+marrom: rgb(106,53,0)

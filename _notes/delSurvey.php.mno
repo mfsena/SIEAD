@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rstSurveys" value="name:Id_questionario;datatype:int,name:Nome_questionario;datatype:string,name:userID;datatype:string,name:Data_questionario;datatype:date" />
+</info>

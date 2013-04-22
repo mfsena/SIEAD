@@ -1,0 +1,6 @@
+<ASX version ="3.0">
+  <TITLE>Stream1234</TITLE>
+  <ENTRY>
+    <REF HREF="rtsp://192.168.25.14:554/video.mp4"/>
+  </ENTRY>
+</ASX>

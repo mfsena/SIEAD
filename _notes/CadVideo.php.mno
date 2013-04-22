@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsMatProf" value="name:DescMat;datatype:string" />
+	<infoitem key="UD_rstMaterias" value="name:idMaterias;datatype:int,name:CodMat;datatype:string,name:DescMat;datatype:string" />
+	<infoitem key="UD_rstVideos" value="name:id_Video;datatype:int,name:HorarioIniVideo;datatype:time,name:HorarioFimVideo;datatype:time,name:NomeVideo;datatype:string,name:TemaVideo;datatype:string,name:UserProf;datatype:string,name:Data;datatype:string" />
+	<infoitem key="UD_rsUser" value="name:UserID;datatype:string" />
+</info>

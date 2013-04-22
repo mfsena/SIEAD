@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rstVideos" value="name:id_Video;datatype:int,name:DataVideo;datatype:date,name:HorarioIniVideo;datatype:time,name:HorarioFimVideo;datatype:time,name:NomeVideo;datatype:string,name:TemaVideo;datatype:string,name:UserID;datatype:string" />
+</info>

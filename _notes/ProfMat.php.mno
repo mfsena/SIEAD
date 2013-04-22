@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_rsMatProf" value="name:DescMat;datatype:string" />
+	<infoitem key="UD_rstMaterias" value="name:idMaterias;datatype:int,name:Materia;datatype:string" />
+	<infoitem key="UD_rstProfs" value="name:userProf;datatype:string,name:Professor;datatype:string" />
+</info>

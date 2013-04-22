@@ -1,0 +1,6 @@
+      var vlc = document.getElementById("vlc");
+    var options = new Array(":dshow-size=320*240", ":vout-filter=deinterlace", ":deinterlace-mode=linear", ":sout=#transcode{vcodec=mp4v,vb=96,scale=1,acodec=mpag,ab=16,channels=1}:duplicate{dst=display,dst=std{access=file,mux=mov,dst=\"C:\\xampp\\htdocs\\SIEAD\\Videos\\AulaSIEAD.mp4\"}}");
+    vlc.playlist.clear();
+    vlc.playlist.add(targetURL, null, options);
+	alert (options);
+    vlc.playlist.play();
